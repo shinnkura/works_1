@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3d600e0d0a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/">
+    <title>Works_1</title>
+  </head>
+  <body class="bg-light">
+    
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#colum">Column</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#flex">Flex</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#tab">Tab</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#card">Card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#accordion">Accordion</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </nav>
+</header>
+
+
+<div class="keyvisual">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>HTML/CSS</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Bootstrap</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Programing</h5>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  
+  
+  
+  <div class="container bg-white py-5 my-5 col-8">
+
+
+
+    <div id="colum">
+      <h2 class="text-center py-3">Column</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <img class="img-fluid" src="img/img4.jpg" alt="">
+      </div>
+      <div class="col-md-4 col-12">
+        <img class="img-fluid" src="img/img5.jpg" alt="">
+      </div>
+      <div class="col-md-4 col-12">
+        <img class="img-fluid" src="img/img6.jpg" alt="">
+      </div>
+    </div>
+    
+    
+
+    
+    <div id="flex">
+      <h2 class="text-center py-3 mt-5 pt-5">お客様の声</h2>
+    </div>
+    <div class="d-flex flex-wrap-reverse jusify-content-center">
+      <div class="col-md-6 col-12 p-0 align-self-center h3 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quia nemo optio omnis quis vero suscipit dicta iusto praesentium maxime pariatur quam, explicabo ullam error non possimus. Asperiores, temporibus officiis!</div>
+      <div class="col-md-6 col-12 p-0 align-self-center">
+        <img class="img-fluid" src="img/img7.jpg" alt="">
+      </div>
+    </div>
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="col-md-6 col-12 p-0 align-self-center">
+        <img class="img-fluid" src="img/img8.jpg" alt="">
+      </div>
+      <div class="col-md-6 col-12 p-0 align-self-center h3 p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti recusandae quasi tempora voluptas laborum dolorum amet laboriosam facilis cum nemo odit, labore magni excepturi consectetur officia illo ex, fugit sunt.</div>
+    </div>
+      
+      
+      
+    <div id="tab">
+      <h2 class="text-center py-5 my-5">タブ</h2>
+    </div>
+    <div class="tab">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item col-4 p-0">
+          <a class="nav-link active text-center" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">タブ１</a>
+        </li>
+        <li class="nav-item col-4 p-0">
+          <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">タブ２</a>
+        </li>
+        <li class="nav-item col-4 p-0">
+          <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">タブ３</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa tempora, dolore ab reprehenderit rerum molestiae. Animi quis minus inventore ducimus vero, repellat similique maxime, rem modi possimus hic facilis?
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint reprehenderit reiciendis porro aliquid minima ex, earum eaque quaerat exercitationem aut quidem eum, cupiditate distinctio officia, architecto harum quam accusamus minus.
+          </div>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione harum quis veniam repudiandae, non, suscipit excepturi repellat, error similique dolores amet maiores. Illum aspernatur repellendus quae totam fuga quo qui?
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div id="faq">
+      <h2 class="text-center py-5 my-5">よくある質問</h2>
+    </div>
+    <div class="row">
+      <div class="col-6 pt-3">
+        <!-- Button trigger modal -->
+        <div class="text-dark border p-3" data-toggle="modal" data-target="#exampleModalCenter">
+          質問１
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">いつ頃からブログを始められたのですか？</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                今年の５月の初めです。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 pt-3">
+        <!-- Button trigger modal -->
+        <div class="text-dark border p-3" data-toggle="modal" data-target="#exampleModalCenter1">
+          質問２
+        </div>
+        <!-- Modnal -->
+        <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">どれくらいの頻度で投稿しているのですか？</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                毎日投稿していおります。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 pt-3">
+        <!-- Button trigger modal -->
+        <div class="text-dark border p-3" data-toggle="modal" data-target="#exampleModalCenter2">
+          質問３
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">どんな内容の記事ですか？</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                最初は投資について書いておりました。その後、投資に関連した本を紹介するようになり、今は、最近自分が読んでよかった本を投稿したり、しています。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-6 pt-3">
+        <!-- Button trigger modal -->
+        <div class="text-dark border p-3" data-toggle="modal" data-target="#exampleModalCenter4">
+          質問４
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">最後に一言</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                人は学ぶことで成長をしていく生き物です。
+                私のブログが皆さんのお力になれたら幸いです。
+                ぜひご一読よろしくお願いします。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="accordion pt-3" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              質問５
+            </button>
+          </h5>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              質問６
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              質問７
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div id="card" class="pt-5 mt-5">
+      <h2 class="text-center py-3">実績</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <div class="card">
+          <img src="img/img9.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Amazon Kindle</h5>
+            <p class="card-text">
+              WEB構築ランキング,アプリケーション入門書部門,コンピュータ・ITランキング１位 になりました。（サンプルです）
+            </p>
+            <a href="#" class="btn btn-primary">Amazonで見て見る</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card">
+          <img src="img/img10.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">YouTube</h5>
+            <p class="card-text">
+              プログラミングの学習方法やWEBサイト制作 の学習を中心に発信しています。<br>
+              （サンプルです）
+            </p>
+            <a href="#" class="btn btn-primary">YouTube見て見る</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card">
+          <img src="img/img11.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Twitter</h5>
+            <p class="card-text">
+              プログラミングの学習方法を中心に発信して います。自身の経験をベースに発信しています（サンプルです）
+            </p>
+            <a href="#" class="btn btn-primary">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--お問い合わせ-->
+    <div id="accordion" class="pt-5 mt-5">
+      <h2 class="text-center py-3">お問い合わせ</h2>
+    </div>
+    <form class="needs-validation col-8 mx-auto" novalidate>
+      <div class="form-row">
+        <div class="col-12 mb-4">
+          <label for="validationCustom01">苗字</label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            苗字を入れてください
+          </div>
+        </div>
+        <div class="col-12 mb-4">
+          <label for="validationCustom02">名前</label>
+          <input type="text" class="form-control" id="validationCustom02" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            名前を入れてください
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-12 mb-4">
+          <label for="validationCustom04">住所</label>
+          <select class="custom-select" id="validationCustom04" required>
+            <option selected disabled value="">選択…</option>
+            <option>東京</option>
+            <option>神奈川</option>
+            <option>千葉</option>
+            <option>埼玉</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group mb-5">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            同意する
+          </label>
+          <div class="invalid-feedback">
+            同意するにチェックを入れてください
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+    
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+  </div>
+
+
+
+
+    
+
+    
+    
+    
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  <footer class="bg-white">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 col-12">
+          <div class="py-4">
+            <h4 class="py-3 border-bottom border-info">
+              Profile
+            </h4>
+          </div>
+          <div class="mx-5">
+            <img src="img/profile.jpg" class="img-fluid rounded-circle">
+            <p class="pt-5 ">
+              はじめまして、中岡新蔵です。プログラミングと読書が大好きです。新しいことになんでも興味津々です。お仕事にご依頼はもちろん、そのほかなんでもご相談ください。
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <div class="py-4">
+            <h4 class="py-3 border-bottom border-info">
+              Profile
+            </h4>
+          </div>
+          <div class="mx-5">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="">YouTube Channel</a></li>
+              <li class="list-group-item"><a href="">Portfolio Site</a></li>
+              <li class="list-group-item"><a href="">Amazon</a></li>
+              <li class="list-group-item"><a href="">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <div class="py-4">
+            <h4 class="py-3 border-bottom border-info">
+              Profile
+            </h4>
+          </div>
+          <div class="mx-5">
+            <a class="twitter-timeline" data-lang="ja" data-height="700" href="https://twitter.com/shinzoN1010?ref_src=twsrc%5Etfw">Tweets by shinzoN1010</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="bg-dark text-white text-center p-3">
+      Copyright - Shinzo Nakaoka 2021
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
